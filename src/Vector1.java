@@ -11,6 +11,10 @@ public class Vector1 {
         v.add("Second");
         v.add(4,"fourth");
         System.out.println(v.capacity());
+        System.out.println(v.remove(6));
         System.out.println(v.size());
+        System.out.println(v);
+
+
     }
 }
